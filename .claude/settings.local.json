@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/hazemafaneh/AndroidStudioProjects/TestNetworkMonitorLib -path *shared/src* -name *.kt)",
+      "Bash(grep -r NetworkInspectionPro /Users/hazemafaneh/AndroidStudioProjects/TestNetworkMonitorLib --include=*.swift --include=*.kt)",
+      "Bash(grep -r \"network-inspection-pro\\\\|NetworkInspectionPro\" /Users/hazemafaneh/AndroidStudioProjects/TestNetworkMonitorLib --include=*.kts --include=*.kt --include=*.swift --include=*.gradle)",
+      "Bash(grep -E \"\\\\.\\(kt|swift\\)$\")"
+    ]
+  }
+}
